@@ -1,0 +1,46 @@
+body {
+
+  background-image: url("img/background.png");
+
+}
+
+.container-memory {
+  width: 500px;
+  padding: 0 0;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2px;
+  background-color: white;
+}
+
+.head {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.item > img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.item {
+  background: #f3f3f3;
+  padding: 8px 8px;
+}
+
+body {
+  background-color: white;
+}
+/*# sourceMappingURL=test.css.map */
